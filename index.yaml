@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  gitlab-runner:
+  - apiVersion: v1
+    appVersion: bleeding
+    created: "2020-06-22T05:22:22.515316002Z"
+    description: GitLab Runner
+    digest: 7e41dd4d366f4810f57d92b34721b3c220d10146b56580e7c8e48695484e5666
+    icon: https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png
+    keywords:
+    - git
+    - ci
+    - deploy
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab-runner
+    sources:
+    - https://hub.docker.com/r/gitlab/gitlab-runner/
+    - https://docs.gitlab.com/runner/
+    urls:
+    - https://headsha.github.io/runner-helm/gitlab-runner-0.19.0-beta.tgz
+    version: 0.19.0-beta
+generated: "2020-06-22T05:22:22.495754746Z"
